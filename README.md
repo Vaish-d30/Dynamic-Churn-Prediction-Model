@@ -12,7 +12,8 @@ A web-based churn prediction system that uses a **Random Forest classifier** to 
 ![Upload Page](https://github.com/Vaish-d30/Dynamic-Churn-Prediction-Model/blob/ebc39f4d7af6d362080e9703908d1715cc8139bc/home%20page%20.png)
 
 ### 🔸 Prediction Results  
-![Prediction Results](prediction-page-1.png)
+![Prediction Results](https://github.com/Vaish-d30/Dynamic-Churn-Prediction-Model/blob/1725811037dfa069187b5bdd6ba4d0dc9d76ab00/prediction%20page%201.png)
+![Prediction Results](https://github.com/Vaish-d30/Dynamic-Churn-Prediction-Model/blob/1725811037dfa069187b5bdd6ba4d0dc9d76ab00/prediction%20page%202.png)
 
 
 ---
