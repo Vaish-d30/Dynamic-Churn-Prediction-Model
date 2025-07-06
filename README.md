@@ -3,33 +3,46 @@ Random Forest–based churn prediction app for Excel data (Flask + Python)
 
 # 🔍 Dynamic Churn Prediction Model
 
-A web-based churn prediction system that uses a **Random Forest classifier** to analyze customer data and predict churn. Built with Python and Flask, this app is designed for teams who want quick churn insights with minimal setup.
+A web-based churn prediction system that uses a **Random Forest classifier** to analyze customer data and predict churn. Built with Python and Flask, this app helps businesses quickly identify which customers are at risk of leaving — using just an Excel upload.
 
 ---
 
-## 🚀 Overview
+## 🖥️ Demo Preview
 
-This app allows users to:
-- Upload an Excel file containing customer data
-- Automatically clean and preprocess it
-- Predict churn outcomes using a pre-trained Random Forest model
-- View predictions in a user-friendly format
+### 🔸 Upload Page
+![Upload Page](<img width="937" alt="home page " src="https://github.com/user-attachments/assets/fb08c153-99d1-424f-b816-0dea6b132a6d" />
+)
 
-> ⚠️ **Note:** Your Excel file **must contain a column named `Churn`** (with binary values like `Yes/No` or `1/0`).
+### 🔸 Prediction Results
+![Prediction Results](<img width="914" alt="prediction page 1" src="https://github.com/user-attachments/assets/401ce11a-9e00-42a9-95d4-9c6ee985c026" />
+)
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Python**  
-- **Flask**  
-- **Pandas, NumPy**  
-- **Scikit-learn (Random Forest Classifier)**  
+- **Backend:** Flask, Python  
+- **ML Model:** Random Forest Classifier (Scikit-learn)  
+- **Data Handling:** Pandas, NumPy  
+- **Excel Support:** openpyxl / xlrd  
+- **Frontend:** HTML/CSS (Basic)
+
 ---
 
-## 🧪 How to Run
+## 📂 Features
 
-1. **Clone this repo**  
+- 📥 Upload Excel files with customer data  
+- ✅ Auto-cleaning & preprocessing  
+- 🔍 Predict churn using a trained ML model  
+- 📊 View prediction results in the browser  
+
+> ⚠️ The uploaded Excel file **must contain a column named `Churn`** (with values like Yes/No or 1/0).
+
+---
+
+## 🚀 How to Run Locally
+
+1. **Clone this repository**
 ```bash
 git clone https://github.com/your-username/dynamic-churn-predictor.git
 cd dynamic-churn-predictor
