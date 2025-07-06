@@ -10,12 +10,10 @@ A web-based churn prediction system that uses a **Random Forest classifier** to 
 ## 🖥️ Demo Preview
 
 ### 🔸 Upload Page
-![Upload Page](<img width="937" alt="home page " src="https://github.com/user-attachments/assets/fb08c153-99d1-424f-b816-0dea6b132a6d" />
-)
+![Upload Page](home page.png)
 
 ### 🔸 Prediction Results
-![Prediction Results](<img width="914" alt="prediction page 1" src="https://github.com/user-attachments/assets/401ce11a-9e00-42a9-95d4-9c6ee985c026" />
-)
+![Prediction Results](prediction page 1)
 
 ---
 
