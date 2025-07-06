@@ -1,6 +1,3 @@
-# Dynamic-Churn-Prediction-Model
-Random Forest–based churn prediction app for Excel data (Flask + Python)
-
 # 🔍 Dynamic Churn Prediction Model
 
 A web-based churn prediction system that uses a **Random Forest classifier** to analyze customer data and predict churn. Built with Python and Flask, this app helps businesses quickly identify which customers are at risk of leaving — using just an Excel upload.
@@ -12,7 +9,7 @@ A web-based churn prediction system that uses a **Random Forest classifier** to 
 ## 🖼️ Screenshots
 
 ### 🔸 Upload Page  
-![Upload Page](home page .png)
+![Upload Page](https://github.com/Vaish-d30/Dynamic-Churn-Prediction-Model/blob/ebc39f4d7af6d362080e9703908d1715cc8139bc/home%20page%20.png)
 
 ### 🔸 Prediction Results  
 ![Prediction Results](prediction-page-1.png)
