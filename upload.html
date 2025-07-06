@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churn Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Churn Prediction</h1>
+        <form action="/predict" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <button type="submit">Upload and Predict</button>
+        </form>
+
+        {% if prediction %}
+            <h2>Prediction Results</h2>
+            <p>{{ prediction }}</p>
+            <img src="{{ url_for('static', filename='confusion_matrix.png') }}" alt="Confusion Matrix">
+            <img src="{{ url_for('static', filename='feature_importance.png') }}" alt="Feature Importance">
+        {% endif %}
+    </div>
+</body>
+</html>
